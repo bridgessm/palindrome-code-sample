@@ -1,0 +1,7 @@
+com\odx\test\TestApplication.class
+com\odx\test\repository\PalindromeRepository.class
+com\odx\test\web\rest\PalindromeController.class
+com\odx\test\resource\PalindromeResource.class
+com\odx\test\web\rest\errors\PalindromeNotFoundAdvice.class
+com\odx\test\web\rest\errors\PalindromeNotFoundException.class
+com\odx\test\domain\Palindrome.class

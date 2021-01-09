@@ -1,0 +1,335 @@
+{
+	"info": {
+		"_postman_id": "976bf155-70da-41c4-b077-5dcd8628a6f4",
+		"name": "Palindrome Sample Tests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Palindrome - basic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "dsjkhdsalkjhflskjdvhkjsdadfgjgfdaiovjevbdkjhvgsdfhei",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - 1000 characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "IZtHS99fO7i4SIud9rregtNQd8v4yxTfyPGr7tDSGvIQx5xABWihSg4AlMWRyUwkkXhfxXoeBUog0yz2QgJQEg7MzI7A6pAliAk6wRdlktjypA3uYhj1N1IDNI28L9Vl1a9vqHVnU8vOFQrqFtrfRFyhckNuRnkJS0fKakDedng80ePBuHQe0cagpUppgb7Cx9pmsC5mgQ1RiIUiFgolcfTSjVdXkaMzuVyqRyBlsgDeShSsb8hsnOyasNa67hH4AR9PVL399x5ckIg4nU89diMYuVkEeojVCZdRJm9Ex4LdyvkdtZDgdULDSTiiRQghtdWSkizWUxxp6A1dx3cOajjKoE3EMM0rEjqpNKbExlYsNo6cew8AVoqtJbBWLlFdK8ooYT7fFR5WWuOTLVvTgRRmiLM9ZXTcz4mkqNIL2bVp1nL4H8rZRooz6FS5f7sDaZtyyx9vcIG5Wa4DW1WwbI3l4mlGabHgF40jPeVVJPrp81KcJ1E7ueMCzf0wX6UlMQOwnAQkj9lFe1LEpHV4AGDlNVZqKtDZxpuR0TjUgxnbGSuc0dYAfh2FJY3mf0yW47AoEY8OUNUy7sOnOqFsviThj8vA8KsLpF1gg1RnKYmSVOmmM3WUEOlnihmUeCA8ec17cbFzvESTFu2hLvYJ4EeqAyqGL293SGufCoMlWeXzGCRqyzNkUB9ma6lCnoDUU5hUmKe6aBZtnlPEJoI8A9l7Nkgvqqo2TueAncqJsIzbLysX8tWHsboz8siWiYfpIKhKYdzOJU5aRoj8fvJWgC20XmIuO2LhQaAhJuJNVD5Jmug0kW9MeKG66doa1iTbVuSeFtwLmNMZAbYsCju86Qd1HbgUtmCsC3w8lW4SREmZp8PyHAkAQd8kXMTULXVn23N0SBMI0qAjsOI3hhl0ixT3Tjy1DxBDdj3xdTMzqZF9s8A4nEWQuDjR1PqS9WSgQpejc3FAblbPj2mnZZhdtP9DTWsWOviWQbfYKnQo",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - 1000 Ls",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Palindromic sentence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "Sator Arepo Tenet Opera Rotas",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Smallest palindrome",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "abcdefghijklmnopqrstuvwxyz",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Initial characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "abcdcbakdlsf;jvdiuvwoiuhvdsjk",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Two initial characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "aakdlsf;jvdiuvwoiuhvdsjk",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Final characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "kdlsf;jvdiuvwoiuhvdsjkabcdcba",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Two final characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "kdlsf;jvdiuvwoiuhvdsjkaa",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Palindrome - Special characters",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "kdlsf;jvdiuv!@#$%$#@!woiuhvdsjkaa",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all Palindromes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/palindromes",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get existing Palindrome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/palindromes/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get nonexistent Palindrome",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/palindromes/99999",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"palindromes",
+						"99999"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
